@@ -1,0 +1,22 @@
+#calculator {
+    border-radius: 50px;
+    border: 2px solid rgb(29, 223, 181);
+    background-color:rgba(0, 0, 0, 0);  
+    /* animation:border-change 2s infinite;
+    animation-direction:alternate; */
+    position: fixed;
+    box-shadow: 0px 0px 100px 50px rgb(15, 157, 240);
+}
+
+#canvas{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+@keyframes border-change{
+    from {box-shadow: 0px 0px 0px 0px #12d1c8;}
+    to {box-shadow: 0px 0px 100px 50px #12d1c8;}
+}
+
